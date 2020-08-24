@@ -1,0 +1,68 @@
+[16-Aug-2020 15:16:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=7564 in C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php on line 2033
+[16-Aug-2020 15:16:05 UTC] PHP Stack trace:
+[16-Aug-2020 15:16:05 UTC] PHP   1. {main}() C:\Users\mikiko yoshida\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[16-Aug-2020 15:16:05 UTC] PHP   2. include() C:\Users\mikiko yoshida\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[16-Aug-2020 15:16:05 UTC] PHP   3. include() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[16-Aug-2020 15:16:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[16-Aug-2020 15:16:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[16-Aug-2020 15:16:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[16-Aug-2020 15:16:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[16-Aug-2020 15:16:05 UTC] PHP   8. require() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[16-Aug-2020 15:16:05 UTC] PHP   9. do_action() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-settings.php:409
+[16-Aug-2020 15:16:05 UTC] PHP  10. WP_Hook->do_action() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\plugin.php:478
+[16-Aug-2020 15:16:05 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\class-wp-hook.php:311
+[16-Aug-2020 15:16:05 UTC] PHP  12. smart_slider_3_plugins_loaded() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\class-wp-hook.php:287
+[16-Aug-2020 15:16:05 UTC] PHP  13. require_once() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\plugin.php:15
+[16-Aug-2020 15:16:05 UTC] PHP  14. Nextend\Autoloader::getInstance() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:203
+[16-Aug-2020 15:16:05 UTC] PHP  15. Nextend\Autoloader->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:55
+[16-Aug-2020 15:16:05 UTC] PHP  16. call_user_func_array:{C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:45}() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:45
+[16-Aug-2020 15:16:05 UTC] PHP  17. Nextend\SmartSlider3\SmartSlider3::getInstance() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:45
+[16-Aug-2020 15:16:05 UTC] PHP  18. Nextend\SmartSlider3\SmartSlider3->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Pattern\SingletonTrait.php:12
+[16-Aug-2020 15:16:05 UTC] PHP  19. Nextend\SmartSlider3\SmartSlider3->init() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Pattern\SingletonTrait.php:16
+[16-Aug-2020 15:16:05 UTC] PHP  20. Nextend\SmartSlider3\Platform\SmartSlider3Platform::getInstance() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\SmartSlider3.php:31
+[16-Aug-2020 15:16:05 UTC] PHP  21. Nextend\SmartSlider3\Platform\SmartSlider3Platform->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Pattern\SingletonTrait.php:12
+[16-Aug-2020 15:16:05 UTC] PHP  22. Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress->start() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\SmartSlider3Platform.php:19
+[16-Aug-2020 15:16:05 UTC] PHP  23. Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress->integrate() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress.php:49
+[16-Aug-2020 15:16:05 UTC] PHP  24. Nextend\SmartSlider3\Platform\WordPress\Compatibility->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress.php:69
+[16-Aug-2020 15:16:05 UTC] PHP  25. Nextend\SmartSlider3\Settings::get() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Compatibility.php:55
+[16-Aug-2020 15:16:05 UTC] PHP Warning:  Error while sending QUERY packet. PID=12356 in C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php on line 2033
+[16-Aug-2020 15:16:05 UTC] PHP Stack trace:
+[16-Aug-2020 15:16:05 UTC] PHP   1. {main}() C:\Users\mikiko yoshida\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[16-Aug-2020 15:16:05 UTC] PHP   2. include() C:\Users\mikiko yoshida\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[16-Aug-2020 15:16:05 UTC] PHP   3. include() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[16-Aug-2020 15:16:05 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[16-Aug-2020 15:16:05 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[16-Aug-2020 15:16:05 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[16-Aug-2020 15:16:05 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[16-Aug-2020 15:16:05 UTC] PHP  26. Nextend\SmartSlider3\Settings::getAll() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Settings.php:25
+[16-Aug-2020 15:16:05 UTC] PHP   8. require() phar://C:/Users/mikiko yoshida/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[16-Aug-2020 15:16:05 UTC] PHP  27. Nextend\Framework\Model\ApplicationSection->get() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Settings.php:17
+[16-Aug-2020 15:16:05 UTC] PHP   9. do_action() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-settings.php:409
+[16-Aug-2020 15:16:05 UTC] PHP  28. Nextend\Framework\Database\WordPress\WordPressConnectorTable->findByAttributes() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Model\ApplicationSection.php:44
+[16-Aug-2020 15:16:05 UTC] PHP  10. WP_Hook->do_action() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\plugin.php:478
+[16-Aug-2020 15:16:05 UTC] PHP  29. wpdb->get_row() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Database\WordPress\WordPressConnectorTable.php:32
+[16-Aug-2020 15:16:05 UTC] PHP  30. wpdb->query() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php:2593
+[16-Aug-2020 15:16:05 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\class-wp-hook.php:311
+[16-Aug-2020 15:16:05 UTC] PHP  31. wpdb->_do_query() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php:1922
+[16-Aug-2020 15:16:05 UTC] PHP  12. smart_slider_3_plugins_loaded() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\class-wp-hook.php:287
+[16-Aug-2020 15:16:05 UTC] PHP  32. mysqli_query() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php:2033
+[16-Aug-2020 15:16:05 UTC] PHP  13. require_once() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\plugin.php:15
+[16-Aug-2020 15:16:05 UTC] PHP  14. Nextend\Autoloader::getInstance() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:203
+[16-Aug-2020 15:16:05 UTC] PHP  15. Nextend\Autoloader->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:55
+[16-Aug-2020 15:16:05 UTC] PHP  16. call_user_func_array:{C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:45}() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:45
+[16-Aug-2020 15:16:05 UTC] PHP  17. Nextend\SmartSlider3\SmartSlider3::getInstance() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Autoloader.php:45
+[16-Aug-2020 15:16:05 UTC] PHP  18. Nextend\SmartSlider3\SmartSlider3->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Pattern\SingletonTrait.php:12
+[16-Aug-2020 15:16:05 UTC] PHP  19. Nextend\SmartSlider3\SmartSlider3->init() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Pattern\SingletonTrait.php:16
+[16-Aug-2020 15:16:05 UTC] PHP  20. Nextend\SmartSlider3\Platform\SmartSlider3Platform::getInstance() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\SmartSlider3.php:31
+[16-Aug-2020 15:16:05 UTC] PHP  21. Nextend\SmartSlider3\Platform\SmartSlider3Platform->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Pattern\SingletonTrait.php:12
+[16-Aug-2020 15:16:05 UTC] PHP  22. Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress->start() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\SmartSlider3Platform.php:19
+[16-Aug-2020 15:16:05 UTC] PHP  23. Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress->integrate() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress.php:49
+[16-Aug-2020 15:16:05 UTC] PHP  24. Nextend\SmartSlider3\Platform\WordPress\Compatibility->__construct() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\SmartSlider3PlatformWordPress.php:69
+[16-Aug-2020 15:16:05 UTC] PHP  25. Nextend\SmartSlider3\Settings::get() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Platform\WordPress\Compatibility.php:55
+[16-Aug-2020 15:16:05 UTC] PHP  26. Nextend\SmartSlider3\Settings::getAll() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Settings.php:25
+[16-Aug-2020 15:16:05 UTC] PHP  27. Nextend\Framework\Model\ApplicationSection->get() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\SmartSlider3\Settings.php:17
+[16-Aug-2020 15:16:05 UTC] PHP  28. Nextend\Framework\Database\WordPress\WordPressConnectorTable->findByAttributes() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Model\ApplicationSection.php:44
+[16-Aug-2020 15:16:05 UTC] PHP  29. wpdb->get_row() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-content\plugins\smart-slider-3\Nextend\Framework\Database\WordPress\WordPressConnectorTable.php:32
+[16-Aug-2020 15:16:05 UTC] PHP  30. wpdb->query() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php:2593
+[16-Aug-2020 15:16:05 UTC] PHP  31. wpdb->_do_query() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php:1922
+[16-Aug-2020 15:16:05 UTC] PHP  32. mysqli_query() C:\Users\mikiko yoshida\Local Sites\graphy\app\public\wp-includes\wp-db.php:2033
